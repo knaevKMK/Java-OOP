@@ -35,6 +35,9 @@ public class RepositoryPC<T> implements Repository<Computer> {
     @Override
     public String removeProduct(String id) {// parse it
         Computer computer = this.getProductById(Integer.parseInt(id));
+//        if (computer == null) {
+//            return "";
+//        }
         computers.remove(Integer.parseInt(id), computer);
         return computer.toString();
     }
@@ -48,7 +51,7 @@ public class RepositoryPC<T> implements Repository<Computer> {
 
     @Override
     public void addProduct(Computer product) {
-        if (computers.containsKey(product.getId())) {
+        if (computers.containsKey(product.getId()) || computers.get(product.getId()) != null) {
             throw new IllegalArgumentException(EXISTING_COMPUTER_ID);
         }
 

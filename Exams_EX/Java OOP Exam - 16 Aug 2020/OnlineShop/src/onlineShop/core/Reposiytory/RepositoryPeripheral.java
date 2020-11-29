@@ -25,7 +25,7 @@ public class RepositoryPeripheral<T> implements Repository<Peripheral> {
 
     @Override
     public void addProduct(Peripheral product) {
-        if (peripherals.containsKey(product.getId())) {
+        if (peripherals.containsKey(product.getId()) || peripherals.get(product.getId()) != null) {
             throw new IllegalArgumentException(EXISTING_PERIPHERAL_ID);
         }
         peripherals.put(product.getId(), product);

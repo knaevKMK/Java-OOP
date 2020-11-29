@@ -24,7 +24,7 @@ public class RepositoryComponent<T> implements Repository<Component> {
 
     @Override
     public void addProduct(Component product) {
-        if (components.containsKey(product.getId())) {
+        if (components.containsKey(product.getId()) || components.get(product.getId()) != null) {
             throw new IllegalArgumentException(EXISTING_COMPONENT_ID);
         }
         components.put(product.getId(), product);
