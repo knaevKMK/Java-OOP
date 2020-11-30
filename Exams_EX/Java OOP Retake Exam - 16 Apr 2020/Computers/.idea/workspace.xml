@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="441ab17c-ab7f-4bdc-82fc-7000a0088c59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Computers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/computers/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/computers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/computers/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/computers/ComputerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/RobotService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/models/garages/GarageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/models/procedures/BaseProcedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/models/procedures/Charge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/models/procedures/Repair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/models/procedures/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/models/robots/BaseRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/models/robots/Cleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RobotService/src/robotService/models/robots/Housekeeper.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kyogFCEcCq3EgrqyTFBbTy5lt1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.ComputerTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="computers.Main" />
+      <module name="Computers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="computers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Computers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="computers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="computers" />
+      <option name="MAIN_CLASS_NAME" value="computers.ComputerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ComputerTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="441ab17c-ab7f-4bdc-82fc-7000a0088c59" name="Default Changelist" comment="" />
+      <created>1606682303201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606682303201</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="835" height="236" key="GridCell.Tab.0.bottom" timestamp="1606685230820">
+      <screen x="0" y="0" width="1538" height="900" />
+    </state>
+    <state width="835" height="236" key="GridCell.Tab.0.bottom/0.0.1538.900@0.0.1538.900" timestamp="1606685230820" />
+    <state width="835" height="236" key="GridCell.Tab.0.center" timestamp="1606685230820">
+      <screen x="0" y="0" width="1538" height="900" />
+    </state>
+    <state width="835" height="236" key="GridCell.Tab.0.center/0.0.1538.900@0.0.1538.900" timestamp="1606685230820" />
+    <state width="835" height="236" key="GridCell.Tab.0.left" timestamp="1606685230820">
+      <screen x="0" y="0" width="1538" height="900" />
+    </state>
+    <state width="835" height="236" key="GridCell.Tab.0.left/0.0.1538.900@0.0.1538.900" timestamp="1606685230820" />
+    <state width="835" height="236" key="GridCell.Tab.0.right" timestamp="1606685230820">
+      <screen x="0" y="0" width="1538" height="900" />
+    </state>
+    <state width="835" height="236" key="GridCell.Tab.0.right/0.0.1538.900@0.0.1538.900" timestamp="1606685230820" />
+  </component>
+</project>
