@@ -1,9 +1,7 @@
 package onlineShop.models.products.components;
 
 public class Motherboard extends BaseComponent {
-    private static final double MULTIPLYER = 1.25;
-
     public Motherboard(int id, String manufacturer, String model, double price, double overallPerformance, int generation) {
-        super(id, manufacturer, model, price, overallPerformance * MULTIPLYER, generation);
+        super(id, manufacturer, model, price, 1.25 * overallPerformance, generation);
     }
 }

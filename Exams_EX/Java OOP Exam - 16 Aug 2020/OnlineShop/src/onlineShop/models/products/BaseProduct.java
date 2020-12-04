@@ -1,18 +1,16 @@
 package onlineShop.models.products;
 
 import static onlineShop.common.constants.ExceptionMessages.*;
+import static onlineShop.common.constants.OutputMessages.PRODUCT_TO_STRING;
 
 public abstract class BaseProduct implements Product {
-
     private int id;
     private String manufacturer;
     private String model;
     private double price;
     private double overallPerformance;
 
-    protected BaseProduct(int id, String manufacturer,
-                          String model, double price,
-                          double overallPerformance) {
+    protected BaseProduct(int id, String manufacturer, String model, double price, double overallPerformance) {
         setId(id);
         setManufacturer(manufacturer);
         setModel(model);
@@ -20,39 +18,40 @@ public abstract class BaseProduct implements Product {
         setOverallPerformance(overallPerformance);
     }
 
-    private void setOverallPerformance(double overallPerformance) {
-        if (overallPerformance <= 0) {
-            throw new IllegalArgumentException(INVALID_OVERALL_PERFORMANCE);
+    public void setId(int id) {
+        if (id <= 0) {
+            throw new IllegalArgumentException(INVALID_PRODUCT_ID);
         }
-        this.overallPerformance = overallPerformance;
+        this.id = id;
     }
 
-    private void setPrice(double price) {
-        if (price <= 0) {
-            throw new IllegalArgumentException(INVALID_PRICE);
-        }
-        this.price = price;
-    }
-
-    private void setModel(String model) {
-        if (model == null || model.trim().isEmpty()) {
-            throw new IllegalArgumentException(INVALID_MODEL);
-        }
-        this.model = model;
-    }
-
-    private void setManufacturer(String manufacturer) {
+    public void setManufacturer(String manufacturer) {
         if (manufacturer == null || manufacturer.trim().isEmpty()) {
             throw new IllegalArgumentException(INVALID_MANUFACTURER);
         }
         this.manufacturer = manufacturer;
     }
 
-    private void setId(int id) {
-        if (id <= 0) {
-            throw new IllegalArgumentException(INVALID_PRODUCT_ID);
+    public void setModel(String model) {
+
+        if (model == null || model.trim().isEmpty()) {
+            throw new IllegalArgumentException(INVALID_MODEL);
         }
-        this.id = id;
+        this.model = model;
+    }
+
+    public void setPrice(double price) {
+        if (price <= 0) {
+            throw new IllegalArgumentException(INVALID_PRICE);
+        }
+        this.price = price;
+    }
+
+    public void setOverallPerformance(double overallPerformance) {
+        if (overallPerformance <= 0) {
+            throw new IllegalArgumentException(INVALID_OVERALL_PERFORMANCE);
+        }
+        this.overallPerformance = overallPerformance;
     }
 
     @Override
@@ -82,10 +81,6 @@ public abstract class BaseProduct implements Product {
 
     @Override
     public String toString() {
-        return String.format("Overall Performance: %.2f. Price: " +
-                        "%.2f - %s: %s" +
-                        " %s (Id: %d)", getOverallPerformance(), getPrice()
-                , this.getClass().getSimpleName(), getManufacturer(), getModel(), getId());
+        return String.format(PRODUCT_TO_STRING, getOverallPerformance(), getPrice(), this.getClass().getSimpleName(), getManufacturer(), getModel(), getId());
     }
-
 }

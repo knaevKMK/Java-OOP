@@ -31,7 +31,7 @@ public class GunRepository implements Repository<Gun> {
 
     @Override
     public boolean remove(Gun model) {
-        return guns.removeIf(gun -> gun.equals(model));
+        return guns.remove(model);
     }
 
     @Override
@@ -41,7 +41,7 @@ public class GunRepository implements Repository<Gun> {
                 return gun;
             }
         }
-        throw new NullPointerException(GUN_CANNOT_BE_FOUND);
-        //return null;
+      throw new NullPointerException(GUN_CANNOT_BE_FOUND);
+//        return null;
     }
 }

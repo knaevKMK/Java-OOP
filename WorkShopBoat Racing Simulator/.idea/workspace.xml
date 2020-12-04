@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffb5e292-f447-482f-a5be-6583140c9f7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/Computers/.idea/Computers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/Computers/Computers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/OnlineShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/BaseProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/components/BaseComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/components/CentralProcessingUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/components/Motherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/components/PowerSupply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/components/RandomAccessMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/components/SolidStateDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/components/VideoCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/computers/BaseComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/computers/DesktopComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/computers/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/peripherals/BasePeripheral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/peripherals/Headset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/peripherals/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/peripherals/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/models/products/peripherals/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/repositories/RepositoryComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/repositories/RepositoryComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exams_EX/OOP Exam - 16 Aug 2020/OnlineShop/src/onlineShop/repositories/RepositoryPeripheral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkShopBoat Racing Simulator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/Validate/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/core/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/core/Controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/core/Controller/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/io/InputManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/io/OutputManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/io/interfaces/InputRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/io/interfaces/OutputWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/boats/BaseBoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/boats/PowerBoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/boats/RowBoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/boats/SailBoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/boats/Yacht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/boats/interfaces/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/engine/BoatEngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/engine/Jet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/engine/Sterndrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/engine/interfaces/BoatEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/race/RaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boatRace/models/race/interfaces/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/core/ControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/core/ControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/models/guns/GunImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/models/guns/GunImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/models/guns/Pistol.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/models/guns/Pistol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/models/guns/Rifle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/models/guns/Rifle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/repositories/GunRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/repositories/GunRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/repositories/PlayerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exams_EX/Java OOP Exam - 12 Apr 2020/CounterStriker/src/CounterStriker/repositories/PlayerRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l70bOQ7mO7lsbGA1xZZmRDqkXY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="boatRace" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffb5e292-f447-482f-a5be-6583140c9f7d" name="Default Changelist" comment="" />
+      <created>1606932894190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606932894190</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1606942039366">
+      <screen x="0" y="0" width="1538" height="900" />
+    </state>
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.0.1538.900@0.0.1538.900" timestamp="1606942039366" />
+    <state x="499" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606942154894">
+      <screen x="0" y="0" width="1538" height="900" />
+    </state>
+    <state x="499" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1538.900@0.0.1538.900" timestamp="1606942154894" />
+    <state x="432" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1606940364143">
+      <screen x="0" y="0" width="1538" height="900" />
+    </state>
+    <state x="432" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1538.900@0.0.1538.900" timestamp="1606940364143" />
+  </component>
+</project>

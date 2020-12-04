@@ -1,8 +1,7 @@
 package onlineShop.common.constants;
 
 public class OutputMessages {
-    public static final String ADDED_COMPUTER =
-            "Computer with id %d added successfully.";
+    public static final String ADDED_COMPUTER = "Computer with id %d added successfully.";
 
     public static final String ADDED_PERIPHERAL = "Peripheral %s with id %d added successfully in computer with id %d.";
 

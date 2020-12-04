@@ -64,16 +64,17 @@ public class ControllerImpl implements Controller {
 
     @Override
     public String startGame() {
-        return field.start(playerRepository.getModels());
+        return field
+                .start(playerRepository.getModels());
     }
 
     @Override
     public String report() {
         StringBuilder print = new StringBuilder();
         playerRepository.getModels().stream().filter(e -> e.getClass().getSimpleName().equals("CounterTerrorist"))
-                .sorted(Comparator.comparing(Player::getUsername)).forEach(e -> print.append(e).append(System.lineSeparator()));
+                .sorted(Comparator.comparing(Player::getHealth).reversed().thenComparing(Player::getUsername)).forEach(e -> print.append(e).append(System.lineSeparator()));
         playerRepository.getModels().stream().filter(e -> e.getClass().getSimpleName().equals("Terrorist"))
-                .sorted(Comparator.comparing(Player::getUsername)).forEach(e -> print.append(e).append(System.lineSeparator()));
+                .sorted(Comparator.comparing(Player::getHealth).reversed().thenComparing(Player::getUsername)).forEach(e -> print.append(e).append(System.lineSeparator()));
         return print.toString().trim();
     }
 }

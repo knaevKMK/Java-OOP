@@ -30,7 +30,7 @@ public class PlayerRepository implements Repository<Player> {
 
     @Override
     public boolean remove(Player model) {
-        return players.removeIf(player -> player.equals(model));
+        return players.remove(model);
     }
 
     @Override
@@ -40,6 +40,7 @@ public class PlayerRepository implements Repository<Player> {
                 return player;
             }
         }
+
         return null;
     }
 }
