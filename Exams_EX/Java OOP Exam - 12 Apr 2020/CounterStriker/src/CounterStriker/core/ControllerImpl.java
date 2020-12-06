@@ -6,6 +6,7 @@ import CounterStriker.models.field.Field;
 import CounterStriker.models.field.FieldImpl;
 import CounterStriker.models.guns.Gun;
 import CounterStriker.models.guns.Pistol;
+import CounterStriker.models.guns.Rifle;
 import CounterStriker.models.players.CounterTerrorist;
 import CounterStriker.models.players.Player;
 import CounterStriker.models.players.Terrorist;
@@ -35,7 +36,7 @@ public class ControllerImpl implements Controller {
                 gun = new Pistol(name, bulletsCount);
                 break;
             case "Rifle":
-                gun = new Pistol(name, bulletsCount);
+                gun = new Rifle(name, bulletsCount);
                 break;
             default:
                 throw new IllegalArgumentException(ExceptionMessages.INVALID_GUN_TYPE);

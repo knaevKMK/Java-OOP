@@ -1,17 +1,18 @@
 package CounterStriker.models.guns;
 
+
 import static CounterStriker.common.ExceptionMessages.INVALID_GUN_BULLETS_COUNT;
 import static CounterStriker.common.ExceptionMessages.INVALID_GUN_NAME;
 
 public abstract class GunImpl implements Gun {
     private String name;
     private int bulletsCount;
-    private int fire;
+    private int fireBullets;
 
-    protected GunImpl(String name, int bulletsCount, int fire) {
+    protected GunImpl(String name, int bulletsCount, int fireBullets) {
         setName(name);
         setBulletsCount(bulletsCount);
-        this.fire = fire;
+        this.fireBullets = fireBullets;
     }
 
     private void setName(String name) {
@@ -21,7 +22,7 @@ public abstract class GunImpl implements Gun {
         this.name = name;
     }
 
-    void setBulletsCount(int bulletsCount) {
+    protected void setBulletsCount(int bulletsCount) {
         if (bulletsCount < 0) {
             throw new IllegalArgumentException(INVALID_GUN_BULLETS_COUNT);
         }
@@ -40,11 +41,10 @@ public abstract class GunImpl implements Gun {
 
     @Override
     public int fire() {
-        if (this.getBulletsCount() - this.fire >= 0) {
-            this.setBulletsCount(this.getBulletsCount() - fire);
-            return fire;
+        if (this.getBulletsCount() >= this.fireBullets) {
+            this.setBulletsCount(this.getBulletsCount() - this.fireBullets);
+            return fireBullets;
         }
         return 0;
     }
-
 }

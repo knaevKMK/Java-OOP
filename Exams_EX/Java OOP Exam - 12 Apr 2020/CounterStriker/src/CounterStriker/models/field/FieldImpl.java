@@ -28,12 +28,6 @@ public class FieldImpl implements Field {
                 return "Counter Terrorist wins!";
             }
         }
-        // The game continues until one of the teams is completely dead (all players have 0 health).
-        // The terrorists attack first and after that the counter terrorists.
-        // The attack happens like that: Each live terrorist shoots on each live counter terrorist
-        // once and inflicts damage equal to the bullets fired and after that each live counter terrorist shoots on each live terrorist.
-        //If Terrorists win returns "Terrorist wins!"
-        // otherwise returns "Counter Terrorist wins!"
     }
 
     private boolean teamIsAlive(List<Player> team) {
@@ -45,7 +39,8 @@ public class FieldImpl implements Field {
             if (attacker.isAlive()) {
                 for (Player attacked : attackedTeam) {
                     if (attacked.isAlive()) {
-                        attacked.takeDamage(attacker.getGun().fire());
+                        int fire = attacker.getGun().fire();
+                        attacked.takeDamage(fire);
                     }
                 }
             }

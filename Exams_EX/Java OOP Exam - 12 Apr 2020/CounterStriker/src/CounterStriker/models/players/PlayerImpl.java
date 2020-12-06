@@ -82,24 +82,27 @@ public abstract class PlayerImpl implements Player {
 
     @Override
     public void takeDamage(int points) {
-        int result = armor - points;
-        if (result <= 0) {
-            setArmor(0);
-            if (health + result < 0) {
-                setHealth(0);
-                return;
+        if (this.getArmor() != 0) {
+            int result = this.getArmor() - points;
+            if (result < 0) {
+                this.setArmor(0);
+                this.takeDamage(Math.abs(result));
             }
-            setHealth(getHealth() + result);
+            this.setArmor(result);
             return;
         }
-        setArmor(result);
+        if (this.getHealth() <= points) {
+            this.setHealth(0);
+            return;
+        }
+        this.setHealth(this.getHealth() - points);
     }
 
     @Override
     public String toString() {
-        return new StringBuilder(String.format("%s: %s%n", this.getClass().getSimpleName(), getUsername()))
-                .append(String.format("--Health: %d%n", getHealth()))
-                .append(String.format("--Armor: %d%n", getArmor()))
+        return new StringBuilder(String.format("%s: %s", this.getClass().getSimpleName(), getUsername())).append(System.lineSeparator())
+                .append(String.format("--Health: %d", getHealth())).append(System.lineSeparator())
+                .append(String.format("--Armor: %d", getArmor())).append(System.lineSeparator())
                 .append(String.format("--Gun: %s", getGun().getName()))
                 .toString();
 
