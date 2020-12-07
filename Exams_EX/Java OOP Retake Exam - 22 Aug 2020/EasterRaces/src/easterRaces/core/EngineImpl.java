@@ -9,9 +9,6 @@ import easterRaces.io.interfaces.OutputWriter;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static easterRaces.common.OutputMessages.DRIVER_ADDED;
-import static easterRaces.common.OutputMessages.RACE_CREATED;
-
 public class EngineImpl implements Engine {
     private InputReader reader;
     private OutputWriter writer;
@@ -79,6 +76,11 @@ public class EngineImpl implements Engine {
         return result;
     }
 
+    private String startRace(String[] data) {
+        String raceName = data[0];
+        return controller.startRace(raceName);
+    }
+
     private String createRace(String[] data) {
         String name = data[0];
         int laps = Integer.parseInt(data[1]);
@@ -89,11 +91,6 @@ public class EngineImpl implements Engine {
         String raceName = data[0];
         String driverName = data[1];
         return controller.addDriverToRace(raceName, driverName);
-    }
-
-    private String startRace(String[] data) {
-        String raceName = data[0];
-        return controller.startRace(raceName);
     }
 
     private String addCar(String[] data) {
@@ -110,7 +107,7 @@ public class EngineImpl implements Engine {
     }
 
     private String createDriver(String[] data) {
-        String driver = data[0];
-        return controller.createDriver(driver);
+        String name = data[0];
+        return controller.createDriver(name);
     }
 }

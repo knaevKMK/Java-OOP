@@ -2,9 +2,6 @@ package easterRaces.entities.drivers;
 
 import easterRaces.entities.cars.Car;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 import static easterRaces.common.ExceptionMessages.CAR_INVALID;
 import static easterRaces.common.ExceptionMessages.INVALID_NAME;
 
@@ -13,19 +10,19 @@ public class DriverImpl implements Driver {
     private Car car;
     private int numberOfWins;
     private boolean canParticipate;
-    private Collection<Car> cars;
 
     public DriverImpl(String name) {
         setName(name);
-        this.cars = new ArrayList<>();
         this.canParticipate = false;
     }
 
     private void setName(String name) {
-        int needLenght = 5;
-        if (name == null || name.length() < 5) {
-            throw new IllegalArgumentException(String.format(INVALID_NAME, name, needLenght));
+        if (name == null || name.trim().length() < 5) {
+            throw new IllegalArgumentException(String.format(INVALID_NAME, name, 5));
         }
+        //o	If the name is null, empty or less than 5 symbols
+        // throw an IllegalArgumentException with message "Name {name} cannot be less than 5 symbols."
+        //o	All names are unique
         this.name = name;
     }
 
@@ -36,11 +33,12 @@ public class DriverImpl implements Driver {
 
     @Override
     public Car getCar() {
-        return cars.stream().min((f, c) -> Integer.compare(c.getHorsePower(), f.getHorsePower())).get();
+        return car;
     }
 
     @Override
     public int getNumberOfWins() {
+        //When the  Driver wins a Race, the number of wins should be increased.
         return numberOfWins;
     }
 
@@ -49,8 +47,10 @@ public class DriverImpl implements Driver {
         if (car == null) {
             throw new IllegalArgumentException(CAR_INVALID);
         }
+//This method adds a Car to the Driver. If the car is null, throw IllegalArgumentException with message "Car cannot be null.".
+        //If the given Car is not null, set the current Car as the given one and after that Driver can participate to race.
+        this.car = car;
         this.canParticipate = true;
-        cars.add(car);
     }
 
     @Override
