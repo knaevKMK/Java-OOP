@@ -12,7 +12,7 @@ public class Main {
 
         String inputLine = scanner.nextLine();
 
-        while (!inputLine.equals("exit")) {
+        while(!inputLine.equals("exit")) {
             commandInterface.handleInput(inputLine);
             inputLine = scanner.nextLine();
         }
