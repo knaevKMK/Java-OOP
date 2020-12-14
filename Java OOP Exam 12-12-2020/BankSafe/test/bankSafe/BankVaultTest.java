@@ -13,6 +13,7 @@ import java.util.Map;
 public class BankVaultTest {
     private BankVault vault;
     private Item item;
+
     private String[] testKey;
     private static final String ITEM_OWNER = "Ivan";
     private static final String ITEM_ID = "1223ID";
@@ -68,6 +69,7 @@ public class BankVaultTest {
 
     @Test(expected = UnsupportedOperationException.class)
     public void testGetVaultCellsAsUnmodifiableCollection() {
+        this.vault.getVaultCells().put("A1", this.item);
         this.vault.getVaultCells().remove("A1");
     }
 
@@ -139,4 +141,5 @@ public class BankVaultTest {
         Assert.assertEquals(temp, this.vault.removeItem("A1", this.item));
         Assert.assertNull(this.vault.getVaultCells().get("A1"));
     }
+
 }
