@@ -18,17 +18,6 @@ public class SystemThread {
             Thread.sleep( 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        } finally {
-            Map<Thread, StackTraceElement[]> allStackTraces = Thread.getAllStackTraces();
-            allStackTraces.forEach((k, v) -> {
-                System.out.println(k.toString() + " PROCESS: "+ v.length);
-              Arrays.stream(v).forEach(System.out::println);
-                for (StackTraceElement vs : v) {
-                    System.out.println(vs.toString());
-                }
-              System.out.println();
-            });
-
         }
         System.out.println(new Time(System.currentTimeMillis()));
     }
