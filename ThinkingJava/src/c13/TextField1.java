@@ -10,9 +10,8 @@ public class TextField1 extends JApplet {
     JButton
             b1 = new JButton("Get Text"),
             b2 = new JButton("Set Text");
-    JTextField
-            t = new JTextField("Starting text: ", 30);
-    String s = new String();
+    JTextField t = new JTextField("Starting text: ", 30);
+    String s ;
     ActionListener a1 = new ActionListener() {
         public void actionPerformed(ActionEvent e) {
             getAppletContext().showStatus(t.getText());
