@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd3185a0-c2ce-423c-aecf-67fb504515a0" name="Default Changelist" comment="Practice" />
+    <list default="true" id="cd3185a0-c2ce-423c-aecf-67fb504515a0" name="Default Changelist" comment="Practice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c01/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c01/HelloWorld.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.myString">
+  <component name="RunManager" selected="Application.HelloWorld">
     <configuration name="ArrayListType_addFirstElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="c11.ArrayListType_addFirstElement" />
       <module name="ThinkingJava" />
@@ -71,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c10.Main" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c01.HelloWorld" />
       <module name="ThinkingJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="c10.*" />
+          <option name="PATTERN" value="c01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.myString" />
         <item itemvalue="Application.ArrayListType_addFirstElement" />
         <item itemvalue="Application.getClassWithChildClass" />
         <item itemvalue="Application.Bliiiiipl" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
